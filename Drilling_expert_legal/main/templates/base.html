@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% load static %}
+  <title>{% block title %}{% endblock %}</title>
+  {% load bootstrap5 %}
+  {% bootstrap_css %}
+  {% bootstrap_javascript %}
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <button
+      class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+        <span class="fas fa-bars"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" 
+      id="navbarSupportedContent"
+      >
+
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/Arbitrator/">Arbitrator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Mediator/">Mediator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Expert/">Expert</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/homePage/"><img src="{% static '\images\DELS_logo.png' %}" alt="My image"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Investigator/">Investigator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/eLearning/">eLearning</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  {% block content %} 
+  {% endblock %}
+</body>
+</html>
