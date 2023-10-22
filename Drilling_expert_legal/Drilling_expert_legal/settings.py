@@ -26,7 +26,9 @@ SECRET_KEY = 'django-insecure-z0vsr-af98p#iv*$ix!h6kz5ope2ajy)6vqs2+em69#-s4o#h*
 DEBUG = True
 
 ALLOWED_HOSTS = ['192.168.1.96',
-                 '127.0.0.1']
+                 '192.168.1.86',
+                 '127.0.0.1',
+                 'localhost',]
 
 
 # Application definition
@@ -120,7 +122,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
-    BASE_DIR / 'static',
+    BASE_DIR / 'main/static',
 ]
 
 # Default primary key field type

@@ -3,6 +3,7 @@
     object-position: center;
     height: 60vh;
     overflow: hidden;
+    width: 100%;
 }
 
 .carousel-inner {
@@ -15,4 +16,9 @@
     bottom:auto;
     font-size: x-large;
     font: Cursive;
+}
+
+.container-fluid {
+    margin-left: 30;
+    margin-right: 30;
 }

@@ -1,3 +1,17 @@
 .nav-link{
-    font-size: large;
+    font-size: xx-small;
 }
+
+.nav{
+    display: inline;
+    padding: 50px 10px;
+    border: 10px solid #0000;
+}
+
+.footer{
+    padding-top: 10%;
+}
+
+body {
+    color: blue;
+    }
