@@ -14,10 +14,10 @@ function scrollFunction() {
   console.log(document.getElementById("navbar").offsetHeight);
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
 
-    document.getElementById("navbar").style.padding = "0px 80px";
+    document.getElementById("navbar").style.padding = "0px";
     //document.getElementById("logo").style.fontSize = "25px";
   } else {
-    document.getElementById("navbar").style.padding = "12px 80px";
+    document.getElementById("navbar").style.padding = "20px";
     // document.getElementById("logo").style.fontSize = "35px";
   }
 }
