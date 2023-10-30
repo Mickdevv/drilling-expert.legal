@@ -26,8 +26,11 @@ header{
     align-items: center;
     /* Aligns header items */
     justify-content: center;
-    /* opacity: 1; */
     z-index: 3;
+}
+
+.container-lg {
+    padding-top: 15px;
 }
 
 .logo{
