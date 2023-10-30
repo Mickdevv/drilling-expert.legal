@@ -28,7 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = ['192.168.1.96',
                  '192.168.1.86',
                  '127.0.0.1',
-                 'localhost',]
+                 'localhost',
+                 '192.168.1.19',]
 
 
 # Application definition
@@ -42,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bootstrap5',
     'main',
+    # 'fontawesomefree'
 ]
 
 MIDDLEWARE = [

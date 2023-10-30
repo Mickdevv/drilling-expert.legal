@@ -1,0 +1,17 @@
+.carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption {
+    top:auto;
+    left: -20%;
+    bottom:10%;
+    font-size: x-large;
+}

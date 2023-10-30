@@ -1,0 +1,62 @@
+.carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+    filter: brightness(50%);
+}
+
+.carousel-inner {
+    background: rgba(0, 0, 0, 0);
+}
+
+.carousel-caption {
+    top:15%;
+    left: 5%;
+    bottom:auto;
+    font-size: x-large;
+}
+
+li{
+    list-style-type: disc;
+}
+
+h3{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1080px){
+    .carousel-item img{
+        object-fit: cover;
+        object-position: center;
+        height: 30vh;
+        overflow: hidden;
+        width: 100%;
+        z-index: 1;
+    }
+    .container-fluid{
+        width: 100%;
+    }
+}
+
+/* @media only screen and (max-width: 1080px){
+    .carousel-item img{
+        object-fit: cover;
+        object-position: center;
+        height: 30vh;
+        overflow: hidden;
+        width: 100%;
+        z-index: 1;
+    }
+    #StevePic {
+        display: none;
+    }
+    body{
+        font-size: xx-large;
+    }
+    .container-fluid{
+        width: 100%;
+    }
+} */
