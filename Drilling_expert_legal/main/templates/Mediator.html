@@ -1,13 +1,15 @@
 {% extends "base.html" %}
 {% load static %}
+
 {% block content %}
+<link rel="stylesheet" href="{% static 'Mediator\css\mediator.css' %}">
     <div class="container-fluid">
         <div class="container-sm">
             <h3><br>Accredited Mediator - online</h3>
             <p><br>Hunt ADR Limited is a Civil Mediation Council registered mediation provider and also runs training courses for mediators. I completed the 5 day course and am now accredited by Hunt ADR Limited as a Mediator.</p>
             <p>I can act as mediator either remotely or in-person.  Please email me if I might be able to assist in mediating your dispute.</p>
             
-            <p><img src="{% static 'Mediator/images/HuntMediatorLogo-1920w.jpg' %}" alt="Image 1"></p>
+            <img src="{% static 'Mediator/images/HuntMediatorLogo-1920w.jpg' %}" class="one" alt="Image 1">
         </div>
     </div>
 {% endblock %}

@@ -8,7 +8,7 @@
 }
 
 col {
-    display: inline;
+    display: inline-block;
 }
 
 .navbar-li{
@@ -98,6 +98,8 @@ footer {
     margin: -5px;
     border-radius: 6px;
     overflow: hidden;
+    display: inline-block;
+
 }
 
 .social a{
