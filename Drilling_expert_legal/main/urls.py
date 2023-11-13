@@ -10,5 +10,5 @@ urlpatterns = [
     path("Mediator/", views.Mediator, name="Mediator"),
     path("Arbitrator/", views.Arbitrator, name="Arbitrator"),
     path("DCR_Course_Feedback/", views.DCR_Course_Feedback, name="DCR_Course_Feedback"),
-    path("placeholder/", views.placeholder, name="placeholder"),
+    # path("placeholder/", views.placeholder, name="placeholder"),
 ]
