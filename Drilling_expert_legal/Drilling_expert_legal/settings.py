@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-z0vsr-af98p#iv*$ix!h6kz5ope2ajy)6vqs2+em69#-s4o#h*'
+SECRET_KEY = 'A550D3563A2F1D3B46166ADBC446012C7084284969D49DF68E349D80B26B5654'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -120,12 +120,13 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '176.58.116.127:8001/'
 # STATICFILES_DIRS = [
 #     BASE_DIR / 'main/static',
 # ]
 STATICFILES_DIRS = [
     BASE_DIR / "static",
+    "http://176.58.116.127:8001/var/www/Drilling_expert_legal/main/static",
     "/var/www/Drilling_expert_legal/main/static",
 ]
 
@@ -133,3 +134,9 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+SECURE_SSL_REDIRECT = True
+
+SESSION_COOKIE_SECURE = True
+
+CSRF_COOKIE_SECURE = True
