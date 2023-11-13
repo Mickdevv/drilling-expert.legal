@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'A550D3563A2F1D3B46166ADBC446012C7084284969D49DF68E349D80B26B5654'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['176.58.116.127',
                  'localhost',
@@ -135,8 +135,8 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-SECURE_SSL_REDIRECT = True
+#SECURE_SSL_REDIRECT = True
 
-SESSION_COOKIE_SECURE = True
+#SESSION_COOKIE_SECURE = True
 
-CSRF_COOKIE_SECURE = True
+#CSRF_COOKIE_SECURE = True
