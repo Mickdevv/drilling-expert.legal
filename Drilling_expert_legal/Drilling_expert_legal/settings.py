@@ -121,8 +121,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+# STATICFILES_DIRS = [
+#     BASE_DIR / 'main/static',
+# ]
 STATICFILES_DIRS = [
-    BASE_DIR / 'main/static',
+    BASE_DIR / "static",
+    "/var/www/Drilling_expert_legal/main/static",
 ]
 
 # Default primary key field type
