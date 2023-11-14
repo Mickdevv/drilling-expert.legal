@@ -19,6 +19,12 @@
     font-size: x-large;
 }
 
+.StevePic {
+    border-radius: 20px;
+    height: auto;
+    width: 20vh;
+}
+
 li{
     list-style-type: disc;
 }
