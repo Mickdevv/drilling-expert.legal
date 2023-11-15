@@ -1,0 +1,24 @@
+.nav-link{
+    font-size: medium;
+}
+
+nav{
+    padding: 80px;
+    display: inline;
+}
+
+footer{
+    scroll-padding-bottom: 10px;
+}
+
+body {
+    border: 10px solid blue;
+    color: blue;
+    padding-top: 80px;
+}
+
+@media (max-width: 979px) {
+    body {
+        padding-top: 20px;
+    }
+}

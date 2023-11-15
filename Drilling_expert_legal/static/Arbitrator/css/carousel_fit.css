@@ -1,0 +1,24 @@
+.carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    height: 60vh;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-inner {
+    background: rgba(0, 0, 0, 0);
+}
+
+.carousel-caption {
+    top:15%;
+    left: 5%;
+    bottom:auto;
+    font-size: x-large;
+    font: Cursive;
+}
+
+.container-fluid {
+    margin-left: 30;
+    margin-right: 30;
+}
