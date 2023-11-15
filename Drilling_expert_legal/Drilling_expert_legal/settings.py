@@ -121,7 +121,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'http://176.58.116.127:8000/'
-STATIC_ROOT = "/home/udoms/Drilling_expert_legal/main/static"
+STATIC_ROOT = "/static"
 # STATICFILES_DIRS = [
 #     os.path.join(BASE_DIR, "/main/static")
 # ]
