@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'A550D3563A2F1D3B46166ADBC446012C7084284969D49DF68E349D80B26B5654'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['176.58.116.127',
                  'localhost',
@@ -120,8 +120,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = '/main/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, "/main/static/")
+STATIC_URL = 'http://176.58.116.127:8000/'
+STATIC_ROOT = os.path.join(BASE_DIR, "/var/www/Drilling_expert_legal/main/static")
 # STATICFILES_DIRS = [
 #     #BASE_DIR / "static",
 #     os.path.join(BASE_DIR, "/main/static/")
