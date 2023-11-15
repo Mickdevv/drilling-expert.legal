@@ -121,11 +121,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'http://176.58.116.127:8000/'
-STATIC_ROOT = os.path.join(BASE_DIR, "/var/www/Drilling_expert_legal/main/static")
-# STATICFILES_DIRS = [
-#     #BASE_DIR / "static",
-#     os.path.join(BASE_DIR, "/main/static/")
-# ]
+STATIC_ROOT = "/var/www/Drilling_expert_legal/main/static"
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "/main/static/")
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
